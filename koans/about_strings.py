@@ -14,14 +14,14 @@ class AboutStrings(unittest.TestCase):
         string = "Hello, world."
 
         # assert that the type of string is str:
-        assert "Hello, world." == str
+        assert type(string) == str
 
     def test_create_string_out_of_an_integer(self):
 
         string = str(123)
 
         # assert that the type of string is str:
-        assert type(string) == __
+        assert type(string) == str
 
     def test_plus_concatenates_strings(self):
 
