@@ -13,21 +13,21 @@ class AboutLists(unittest.TestCase):
         empty_list = []
 
         assert list == type(empty_list)
-        assert __ == len(empty_list)
+        assert 0 == len(empty_list)
 
     def test_accessing_list_elements(self):
 
         noms = ['peanut', 'butter', 'and', 'jelly']
 
-        assert __ == noms[0]
-        assert __ == noms[3]
+        assert 'peanut' == noms[0]
+        assert 'jelly' == noms[3]
 
     def test_slicing_lists(self):
 
         noms = ['peanut', 'butter', 'and', 'jelly']
 
-        assert __ == noms[0:1]
-        assert __ == noms[0:2]
+        assert 'peanut','butter' == noms[0:1]
+        assert 'peanut','butter','and' == noms[0:2]
         assert __ == noms[2:]
         assert __ == noms[:2]
 

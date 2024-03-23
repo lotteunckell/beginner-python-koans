@@ -78,7 +78,7 @@ class AboutStrings(unittest.TestCase):
 
         string = "Bacon, lettuce and tomato"
 
-        assert "lett" == string[7:10]
+        assert "let" == string[7:10]
 
     def test_you_can_get_a_single_character_from_a_string(self):
 
